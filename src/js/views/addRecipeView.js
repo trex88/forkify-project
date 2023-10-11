@@ -33,9 +33,6 @@ class AddRecipeView extends View {
       setTimeout(() => {
         this._renderForm();
       }, 500);
-
-      // setTimeout(this._renderForm, 1000);
-      // this._renderForm();
     });
 
     // this._overlay.addEventListener('click', this.toggleWindow.bind(this));
